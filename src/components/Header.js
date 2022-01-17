@@ -20,10 +20,10 @@ export default function Header() {
                     and improving their quality of life.
                 </p>
                 <div className='form'>
-                  <div className='title'>
+                  {/* <div className='title'>
                     <h1>Scan to Donate</h1>
                   </div>
-                    <img src={Barcode} />
+                    <img src={Barcode} /> */}
                 </div>
             </div>
         </HeaderStyles>
