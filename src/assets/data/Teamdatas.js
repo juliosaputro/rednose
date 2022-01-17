@@ -79,8 +79,8 @@ const Teamdatas = [
     },
     {
         id: 11,
-        name: 'Sayid',
-        title:' ',
+        name: 'Sayid Parlindungan',
+        title:'Healthy Lifestyle Instructor',
         img: Team11,
     },
     {
@@ -91,14 +91,14 @@ const Teamdatas = [
     },
     {
         id: 13,
-        name: 'Wahyu',
-        title:' ',
+        name: 'Muhammad Wahyu',
+        title:'Healthy Lifestyle Instructor',
         img: Team13,
     },
     {
         id: 14,
-        name: 'Wawan',
-        title:' ',
+        name: 'Wawan Kurniawan',
+        title:'Healthy Lifestyle Instructor',
         img: Team14,
     },
     {
