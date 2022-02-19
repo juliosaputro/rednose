@@ -50,7 +50,7 @@ const TeamItemsStyled = styled.div`
 }
 @media only screen and (max-width: 768px) {
   .projectItem__img {
-    height: 350px;
+    height: 550px;
   }
 }
 

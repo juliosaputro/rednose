@@ -117,6 +117,7 @@ export default function NavMenu() {
     margin: 0 auto;
     width: 90%;
     text-align: center;
+    color:red;
     li {
       display: inline-block;
       border-radius: 8px;
@@ -134,7 +135,7 @@ export default function NavMenu() {
       outline: none;
     }
     .active {
-      color: var(--white);
+      color: var(--rn-primary);
     }
   }
   .mobile-menu-icon {
@@ -159,6 +160,8 @@ export default function NavMenu() {
     }
     .mobile-menu-icon {
       display: block;
+      background: var(--rn-blue);
+      border-radius: 7px;
     }
     .navItems {
       --top: 1rem;

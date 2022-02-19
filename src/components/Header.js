@@ -9,6 +9,7 @@ export default function Header() {
     return (
         <HeaderStyles>
             <div className='header'>
+              <div className='description'>
                 <img src={rnflogo2} alt="" className="rnflogo2" />
                 {/* <h1>Red Nose Foundation(RNF)</h1> */}
                 <p className='para'>
@@ -20,11 +21,12 @@ export default function Header() {
                     and improving their quality of life.
                 </p>
                 <div className='form'>
-                  {/* <div className='title'>
+                  <div className='title'>
                     <h1>Scan to Donate</h1>
                   </div>
-                    <img src={Barcode} /> */}
+                    <img src={Barcode} />
                 </div>
+              </div>
             </div>
         </HeaderStyles>
     )
@@ -70,6 +72,7 @@ const HeaderStyles = styled.div`
   letter-spacing: 2px;
 }
 
+
 .form {
     width: 500px;
     height: 550px;
@@ -104,11 +107,68 @@ const HeaderStyles = styled.div`
 
   @media only screen and (max-width: 768px) {
     .barcode_img {
-      height: 350px;
+      height: 150px;
     }
     .header{
-      height: 500px;
+      padding: 0;
+      margin-top:-10rem;
+      grid-template-columns: repeat(1, 1fr);
+      // display: absolute;
+      flex-direction: column;
+      height: 1000px;
+      .rnflogo2{
+        height:70px;
+        width: 500px;
+        margin-left: 40px;
+      }
     }
+
+    .header .para{
+      margin-left: 45px;
+      padding-left: 5px;
+      color: var(--rn-blue);
+      width: 650px;
+      padding-bottom: 5px;
+      font-size: 18px;
+      font-family: 'Poppins';
+      letter-spacing: 1.2px;
+      line-height: 20px;
+    }
+
+    .form {
+      display: flex;
+      flex-direction: column;
+      width: 370px;
+      height: 400px;
+      background: white;
+      top: 40rem;
+      left: 180px;
+      border-radius: 30px;
+      padding: 25px;
+      img{
+        width: 300px;
+        height: 300px;
+        padding: 20px;
+        margin-left: 8px;
+      }
+    }
+
+    .title{
+      margin-left: 10px;
+      text-align: center;
+      width: 295px;
+      height: 6rem;
+      background-color: var(--rn-blue);
+      border-radius: 30px;
+    }
+    .title h1{
+      font-family: 'Poppins';
+      font-size: 25px;
+      color: white;
+      margin: 2px;
+      padding: 8px;
+    }
+    
   }
 
   @media screen and (max-width: 700px){

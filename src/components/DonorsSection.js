@@ -18,14 +18,18 @@ export default function DonorsSection() {
                   {/* <div className="projects__allItems"> */}
                       <Swiper
                           slidesPerView={1}
+                            autoplay={{
+                                    delay: 5000,
+                                    disableOnInteraction: false
+                                }}
                           breakpoints={{
                               // when window width is >= 640px
                               640: {
-                                  slidesPerView: 1,
+                                  slidesPerView: 3,
                               },
                               // when window width is >= 768px
                               768: {
-                                  slidesPerView: 2,
+                                  slidesPerView: 3,
                               },
                               // when window width is >= 1200px
                               1200: {
@@ -54,11 +58,11 @@ export default function DonorsSection() {
                           breakpoints={{
                               // when window width is >= 640px
                               640: {
-                                  slidesPerView: 1,
+                                  slidesPerView: 3,
                               },
                               // when window width is >= 768px
                               768: {
-                                  slidesPerView: 2,
+                                  slidesPerView: 3,
                               },
                               // when window width is >= 1200px
                               1200: {
@@ -86,11 +90,11 @@ export default function DonorsSection() {
                           breakpoints={{
                               // when window width is >= 640px
                               640: {
-                                  slidesPerView: 1,
+                                  slidesPerView: 3,
                               },
                               // when window width is >= 768px
                               768: {
-                                  slidesPerView: 2,
+                                  slidesPerView: 3,
                               },
                               // when window width is >= 1200px
                               1200: {

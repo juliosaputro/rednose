@@ -18,6 +18,10 @@ export default function ReportsSection() {
                     <Swiper
                         spaceBetween={30}
                         slidesPerView={1}
+                          autoplay={{
+                                    delay: 2000,
+                                    disableOnInteraction: false
+                                }}
                         navigation
                         breakpoints={{
                             // when window width is >= 640px
@@ -26,7 +30,7 @@ export default function ReportsSection() {
                             },
                             // when window width is >= 768px
                             768: {
-                                slidesPerView: 2,
+                                slidesPerView: 1,
                             },
                             // when window width is >= 1200px
                             1200: {
