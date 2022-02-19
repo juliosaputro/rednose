@@ -65,7 +65,7 @@ const FormStyle = styled.form`
     width: 100%;
     font-size: 2rem;
     padding: 1.2rem;
-    color: var(--white);
+    color: var(--rn-blue);
     background-color: white;
     outline: none;
     border: none;
