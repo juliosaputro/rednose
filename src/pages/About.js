@@ -7,6 +7,7 @@ import FinishSection from '../components/FinishSection';
 import ContactBanner from '../components/ContactBanner';
 import TeamSection from '../components/TeamSection';
 import DonorsSection from '../components/DonorsSection';
+import Visi from '../components/Visi';
 
 
 export default function About() {
@@ -18,6 +19,7 @@ export default function About() {
             <GrowSection />
             <FinishSection />
             <TeamSection />
+            <Visi />
             <DonorsSection />
             <ContactBanner />
         </div>
