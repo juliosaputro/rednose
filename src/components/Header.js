@@ -117,8 +117,8 @@ const HeaderStyles = styled.div`
       flex-direction: column;
       height: 1000px;
       .rnflogo2{
-        height:70px;
-        width: 500px;
+        height:60px;
+        width: 300px;
         margin-left: 40px;
       }
     }
@@ -127,7 +127,7 @@ const HeaderStyles = styled.div`
       margin-left: 45px;
       padding-left: 5px;
       color: var(--rn-blue);
-      width: 650px;
+      width: 350px;
       padding-bottom: 5px;
       font-size: 18px;
       font-family: 'Poppins';
@@ -138,32 +138,32 @@ const HeaderStyles = styled.div`
     .form {
       display: flex;
       flex-direction: column;
-      width: 370px;
-      height: 400px;
+      width: 270px;
+      height: 300px;
       background: white;
-      top: 40rem;
-      left: 180px;
+      top: 50rem;
+      left: 70px;
       border-radius: 30px;
       padding: 25px;
       img{
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
         padding: 20px;
-        margin-left: 8px;
+        margin-left: 7px;
       }
     }
 
     .title{
       margin-left: 10px;
       text-align: center;
-      width: 295px;
-      height: 6rem;
+      width: 195px;
+      height: 4rem;
       background-color: var(--rn-blue);
       border-radius: 30px;
     }
     .title h1{
       font-family: 'Poppins';
-      font-size: 25px;
+      font-size: 14px;
       color: white;
       margin: 2px;
       padding: 8px;

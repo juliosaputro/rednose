@@ -92,6 +92,7 @@ padding: 20rem 0 10rem 0;
     font-size: 1.8rem;
   }
   .about__heading {
+    margin-top:30px;
     font-size: 2.8rem;
   }
   .about__info__heading {
