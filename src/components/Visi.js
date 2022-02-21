@@ -16,7 +16,7 @@ export default function Visi() {
                             life goals</li>
                         <li> ◉ Equip them with skills and
                             ability to achieve it</li>
-                        <li> ◉Become positive contributors
+                        <li> ◉ Become positive contributors
                             for communities</li>
                     </ul>
                 </VisiCard>
