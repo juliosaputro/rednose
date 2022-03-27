@@ -16,9 +16,7 @@ export default function Header() {
                   Red Nose Foundation(RNF) is a non-profit organization focused on arts,
                   education and personal development for unprivilledge communities in indonesia.<br></br>
                   <br></br>
-                    Established in 2008, we work to empower underprivileged children,
-                    youth, and the communities in which they reside in reaching their dreams
-                    and improving their quality of life.
+                  Established in 2008, we work to empower underprivileged children, youth and the communities to reach their dreams and improving their quality of life.
                 </p>
                 <div className='form'>
                   <div className='title'>
