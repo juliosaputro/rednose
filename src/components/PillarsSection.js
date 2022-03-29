@@ -5,7 +5,7 @@ import SwiperCore, { Navigation } from 'swiper';
 import PillarsItems from './PillarsItems';
 import TitleSection from './TitleSection';
 import {Educationdatas,Emergencydatas,Sustaindatas,Youthdatas} from '../assets/data/Pillarsdatas'
-import 'swiper/swiper-bundle.min.css';
+import 'swiper/css';
 
 
 SwiperCore.use([Navigation])
@@ -41,6 +41,7 @@ export default function PillarsSection() {
                                     <PillarsItems
                                         title={News.title}
                                         img={News.img}
+                                        link={News.link}
                                     />
                                 </SwiperSlide>
                             );
@@ -75,6 +76,7 @@ export default function PillarsSection() {
                                     <PillarsItems
                                         title={News.title}
                                         img={News.img}
+                                        link={News.link}
                                     />
                                 </SwiperSlide>
                             );
@@ -109,6 +111,7 @@ export default function PillarsSection() {
                                     <PillarsItems
                                         title={News.title}
                                         img={News.img}
+                                        link={News.link}
                                     />
                                 </SwiperSlide>
                             );
@@ -143,6 +146,7 @@ export default function PillarsSection() {
                                     <PillarsItems 
                                         title={News.title}
                                         img={News.img}
+                                        link={News.link}
                                     />
                                 </SwiperSlide>
                             );

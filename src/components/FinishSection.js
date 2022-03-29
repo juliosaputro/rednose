@@ -33,7 +33,7 @@ export default function FinishSection() {
             <div className="container">
                 <TitleSection
                     subheading=" "
-                    heading="And Grow to This"
+                    heading="And Grow into This"
                 />
                 <div className="testimonial__wrapper">
                     <SwitchTransition component={null}>
@@ -70,9 +70,9 @@ export default function FinishSection() {
                 </div>
                     <div className='bottom'>
                       <img src={Jugling} />
-                      <h3>Over a decade, we have been supporting 125.000 children and youth,
-                         1.200 parents, teachers and the local community in Jakarta, 
-                         Tangerang, Sulawesi, Sumatra, and Yogyakarta</h3>
+                      <h3>Over a decade, we have been supporting 125.000 children 
+                        and youth, 1.200 parents, teachers and local communities 
+                        in Jakarta, Tangerang, Sulawesi, Sumatera Barat and Yogyakarta</h3>
                     </div>
             </div>
         </FinishSectionStyled>

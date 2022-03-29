@@ -6,7 +6,7 @@ import DonorsItems from './DonorsItems';
 import Donorsdatas from '../assets/data/Donorsdatas';
 import {Partnerssatu, Partnersdua } from '../assets/data/Partnersdatas';
 import TitleSection from './TitleSection';
-import 'swiper/swiper-bundle.min.css';
+import 'swiper/css';
 
 SwiperCore.use([Autoplay])
 

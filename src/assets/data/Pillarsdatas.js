@@ -20,18 +20,21 @@ export const Educationdatas = [
         title: 'Creative Learning Program',
         des:'',
         img: E1,
+        link:'/CLP'
       },
       {
         id: uuidv4(),
         title: 'Healthy Lifstyle Program',
         des:'',
         img: E2,
+        link:'/HLP'
       },
       {
         id: uuidv4(),
         title: 'Scholarship Program',
         des:'',
         img: E3,
+        link:'/SP'
       },
 ];
 
@@ -41,18 +44,21 @@ export const Youthdatas = [
         title: 'Job-Readiness & Vocational Training',
         des:'The Job Readiness Training is held with the aim to prepare youths aged 15-18, especially those who are underprivileged, for entering the workforce. The training equips students with important skills that are needed to enter the job market: goal setting, work ethic, effective communication, basic financial literacy, CV writing, interview techniques, and communication. With a mission to improve young people’s job readiness and employability levels, we conduct a hospitality class, in which students are given a series of training to broaden their knowledge regarding the job and industry. They are also offered to enroll in an internship program to further sharpen their skills and gain real-life experience. Through our partnership with various corporations in the hospitality sector, students are welcomed to be an intern in wellestablished hotels and restaurants for 3-6 months',
         img: Y1,
+        link:'/JRVT'
       },
       {
         id: uuidv4(),
         title: 'Mini-Enterprise Training',
         des:'As a part of our Vocational Training Program, the MiniEnterprise Training is actively organizing a graphic design class for youths started in 2019. In this class, students are equipped with practical knowledge and skills, such as typography, as well as an introduction to graphic design, logo design, vector design, and creating infographics. Furthermore, they also have the chance to do internships in RNF’s company partners, such as creative firms with the hope that they can gain real working experience. We are preparing Clothing Printing as our piloting project for RNF small business unit.',
         img: Y2,
+        link:'/MET'
       },
       {
         id: uuidv4(),
         title: 'International Performance Troupe',
         des:'We want our youth to learn overseas in order to improve their circus skills. Since 2010, we brought more than 20 youth to experience International Performance in Chicago, Kentucky, Vermont, Vancouver, Cambodia, Yangon, Bangkok, and cities in Poland. Our youth learn new circus skills to be adapted in Indonesia and held social circus performances in mentioned countries. ',
         img: Y3,
+        link:'/IPT'
       },
 ];
 
@@ -62,18 +68,21 @@ export const Sustaindatas = [
         title: 'Focus Group Discussion & Seminars',
         des:'The Large Scale Social Restriction (PSBB) which has been implemented in Jakarta several times in 2021 due to the COVID-19 outbreak makes it difficult for us to conduct our programs offline. However, RNF is still committed to supporting our local communities in this difficult time by facilitating several online Focus Group Discussions. For example the bimonthly supporting group discussions with the RPTRA’s representatives and peer-to-peer group discussions, where children can have a safe space to express their feelings and thoughts. Previously, we have successfully conducted this program through our Coaching for Life (COOL) Project from August 2019 to July 2020 together with Save the Children (STC) as our partner.',
         img: S1,
+        link:'/FGDS'
       },
       {
         id: uuidv4(),
         title: 'Families Fun Activities',
         des:"Family is the core system in a child's life that functioned as the first support system. We realize that developing children and youth means developing parents and families as well. Several activities for families started in 2017 with Green Juice Demo where mothers learned to produce healthy drinks with fruits and vegetables as main ingredients. Later on, during the COVID-19 pandemic, we encourage parents and children to do sport together and get prizes from its campaign. We also invite parents to Virtual Zumba activities. So far, more than 800 parents involved in our family's fun activities.",
         img: S2,
+        link:'/FFA'
       },
       {
         id: uuidv4(),
         title: 'Teachers Training',
         des:"Other than staying connected with our students and their parents, RNF also actively organizes workshops for teachers near our centers in Cilincing and Bintaro to introduce creative teaching methods and innovative curriculum in schools. We believe that teachers play a very important role in creating more quality education. The purpose of this workshop is to help teachers in creating more exciting lessons in the classroom which are relevant in today’s context and fulfills the students’ needs. In 2017, RNF flew to Central and South Sulawesi to hold sports teachers' training. And regularly 2 times a year, Sports Teachers Training is given to Cilincing and Jurangmangu, where our centers are located. In 2018, we also train experimental learning for science teachers and in 2019, we hold Digital Literacy Training for more than 150 teachers.",
         img: S3,
+        link:'/TT'
       },
 ];
 
@@ -83,12 +92,14 @@ export const Emergencydatas = [
         title: 'COVID-19 Hygiene Kit Distribution',
         des:'During the COVID-19 pandemic, RNF has a mission to spread moreawareness regarding the importance of a healthy lifestyle. Through ourcollaboration with partners such as NIKE, Yayasan PLAN Indonesia, andNew Zealand Aid Programme to distribute Hygiene Kit and Nutrition Kitto the communities near RNF’s centers in Cilincing and Jurangmangu.It is hoped that our efforts will bring good impacts to the communitiesand serve as a reminder for everyone to keep maintaining a hygieniccondition and eating nutritious food to strengthen their immunesystems. In total, we distributed more than 2.000 hygiene kits to localcommunities, and water taps to our local governments.',
         img: EM1,
+        link:'/HKD'
       },
       {
         id: uuidv4(),
         title: 'Trauma Healing through Social Circus',
         des:'',
         img: EM2,
+        link:'/Pillars'
       },
       
 ];
@@ -133,12 +144,12 @@ export const Healthydatas = [
       des:'The Psychosocial class was first introduced in 2017 as a part of the Healthy Lifestyle Program to address mental health issues. It provides students a place where they can ask for help, reveal their true selves, and expresses problems they may have. Various activities and knowledge are also delivered in order to spread the core values of the RNF, such as responsibility, respect, collaboration, love of learning, persistence, critical thinking, and the importance of gender equality in all situations. In addition, counseling and peer support groups are applied for students and parents.',
       img: Y3,
     },
-    {
-      id: uuidv4(),
-      title: 'Scholarship Program',
-      des:'We currently award full scholarships to 60 students/ year who have participated in RNF’s programs for more than 2 years. The scholarship we provide covers 90% of school tuition and other fees needed by students. In addition, 250 partial scholarships are also awarded to children who have demonstrated excellent academic efforts. By providing scholarships, we hope that it can reduce the number of dropouts among children, which often happens due to their families’ financial condition',
-      img: E4,
-    },
+    // {
+    //   id: uuidv4(),
+    //   title: 'Scholarship Program',
+    //   des:'We currently award full scholarships to 60 students/ year who have participated in RNF’s programs for more than 2 years. The scholarship we provide covers 90% of school tuition and other fees needed by students. In addition, 250 partial scholarships are also awarded to children who have demonstrated excellent academic efforts. By providing scholarships, we hope that it can reduce the number of dropouts among children, which often happens due to their families’ financial condition',
+    //   img: E4,
+    // },
 ];
 
 export const Traumadatas = [

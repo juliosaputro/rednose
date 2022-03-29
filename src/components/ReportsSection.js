@@ -5,7 +5,7 @@ import SwiperCore, { Navigation } from 'swiper';
 import ReportsItems from './ReportsItems';
 import TitleSection from './TitleSection';
 import Reportsdatas from '../assets/data/Reportsdatas';
-import 'swiper/swiper-bundle.min.css';
+import 'swiper/css';
 
 
 SwiperCore.use([Navigation])

@@ -8,8 +8,8 @@ export default function Map() {
               <MapStyles>
                      <div className="container">
                             <div className="map__card">
-                                   <h3 className="map__card__heading">Here is me</h3>
-                                   <PText>GEC circle, Chittagong, Bangladesh</PText>
+                                   <h3 className="map__card__heading">I am here</h3>
+                                   <PText>Tangerang Selatan Banten, 15222</PText>
                                    <a
                                           className="map__card__link"
                                           href="https://goo.gl/maps/7Tvd8EjhdsKXG2ycA"
@@ -35,8 +35,8 @@ const MapStyles = styled.div`
   }
   .map__card {
     position: absolute;
-    right: 10%;
-    bottom: 10%;
+    right: 30%;
+    bottom: 32%;
     padding: 2rem;
     background: var(--rn-primary);
     width: 100%;

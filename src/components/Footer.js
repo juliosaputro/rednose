@@ -16,7 +16,7 @@ export default function Footer() {
                         performance rate.
                     </PText>
                 </div> */}
-                <div className="footer__col2">
+                {/* <div className="footer__col2">
                     <FooterColum
                         heading="Important Links"
                         links={[
@@ -47,7 +47,7 @@ export default function Footer() {
                             },
                         ]}
                     />
-                </div>
+                </div> */}
                 <div className="footer__col3">
                     <FooterColum
                         heading="Contact Info"
@@ -61,8 +61,8 @@ export default function Footer() {
                                 path: 'mailto:info@rednosefoundation.org',
                             },
                             {
-                                title: 'Jl. Kali Baru Timur 11 No.12, RT.12/RW.2, Kali Baru, Kec. Cilincing, Kota Jkt Utara, Daerah Khusus Ibukota Jakarta 14110, Indonesia',
-                                path: 'https://goo.gl/maps/FVVFgWp13L4kszfL6',
+                                title: 'Jl. H.Riban Gang Buntu, RT 001/RW 01 Jurangmangu Barat Tangerang Selatan Banten, 15222',
+                                path: 'https://goo.gl/maps/pgFfyAsU1edqiYtV9',
                             },
                         ]}
                     />
@@ -105,6 +105,7 @@ const FooterStyled = styled.div`
   .container {
     display: flex;
     gap: 10rem;
+    margin-left: 520px;
   }
   .footer__col2,
   .footer__col3,
@@ -121,7 +122,7 @@ const FooterStyled = styled.div`
     padding: 1rem 0;
     margin-top: 5rem;
     .para {
-      margin-left: 40;
+      margin-left: 300px;
     }
   }
   @media only screen and (max-width: 768px) {

@@ -9,7 +9,7 @@ export default function MediaItems({
        return (
               <TeamItemsStyled>
                      <div className="projectItem__video">
-                     <ReactPlayer controls width='100%' height='100%' url={url} />
+                     <ReactPlayer controls width='50%' height='100%' url={url} />
                      </div>
                      <div className="projectItem__info">
                             <a className="projectItem__title">{title}</a>
@@ -23,20 +23,24 @@ margin-bottom: 20px;
 
 .projectItem__video {
   width: 100%;
-  height: 500px;
-  border-radius: 12px;
+  height: 350px;
+  // background: red;
+  // border-radius: 12px;
   overflow: hidden;
-  display: inline-block;
-  border: 3px solid var(--gray-2);
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  // border: 3px solid var(--gray-2);
 }
 .projectItem__info {
   background-color: var(--rn-primary);     
   margin-top: 1rem;
   padding: 1rem;
   border-radius: 12px;
+  text-align:center;
 }
 .projectItem__title {
-  font-size: 4rem;
+  font-size: 2rem;
   color: var(--rn-blue);
   font-family: 'Poppins';
   text-align: center;

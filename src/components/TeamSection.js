@@ -5,7 +5,7 @@ import SwiperCore, { Navigation, Autoplay } from 'swiper';
 import TeamItems from './TeamItems';
 import TitleSection from './TitleSection';
 import Teamdatas from '../assets/data/Teamdatas';
-import 'swiper/swiper-bundle.min.css';
+import 'swiper/css';
 
 
 SwiperCore.use([Navigation])

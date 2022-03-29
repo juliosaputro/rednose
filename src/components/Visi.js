@@ -14,8 +14,7 @@ export default function Visi() {
                         <li> ◉ Support children and youth
                             to become individuals with
                             life goals</li>
-                        <li> ◉ Equip them with skills and
-                            ability to achieve it</li>
+                        <li> ◉ Equip both children and youth with skills and abilities to achieve their dreams</li>
                         <li> ◉ Become positive contributors
                             for communities</li>
                     </ul>

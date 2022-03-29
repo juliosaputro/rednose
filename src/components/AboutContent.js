@@ -11,32 +11,30 @@ export default function AboutContent() {
       <AboutStyled>
         <div className="container">
           <TitleSection 
-            heading='about' />
+            heading='about us' />
           <div className="top-section">
             <div className="left">
               {/* <p className="about__subheading">
                 Hello <span>Rednose</span>
               </p> */}
-              <h2 className="about__heading">REDNOSE</h2>
+              {/* <h2 className="about__heading">REDNOSE</h2> */}
               <div className="about__info">
                 <PText>
                   Red Nose Foundation (RNF) is a non-profit organization that
                   focuses on arts, education, and personal development based in Jakarta, Indonesia.
-                  Established in 2008, we work to empower underprivileged
-                  children, youth, and the communities in which they reside in reaching their dreams and improving their quality of life. 
+                  Established in 2008, we work to empower underprivileged children, youth and the communities to reach their dreams and improving their quality of life.
                   <br /> <br />
                   RNF currently runs several different program for children, parents, teachers, and local communities in our two learning centers located in Cilincing, North Jakarta, and Jurangmangu, Bintaro.
                   <br />
                   <br />
-                  With the gender-based approach applies in all of our programs,
-                  we are hoping that our beneficiaries can be optimized their potential without gender limitation.
+                  With the gender-based approach applied in all of our programs, we are hoping that our beneficiaries can optimize their potential without any gender limitation.
                 </PText>
               </div>
               {/* <Button btnText="Download CV" btnLink="#" /> */}
             </div>
-            <div className="right">
+            {/* <div className="right">
               <img src={Logo} alt="me" />
-            </div>
+            </div> */}
           </div>
         </div>
       </AboutStyled>
@@ -45,7 +43,7 @@ export default function AboutContent() {
 }
 
 const AboutStyled = styled.div`
-padding: 20rem 0 10rem 0;
+padding: 5rem 0 10rem 0;
 
 .top-section {
   display: flex;
@@ -72,9 +70,12 @@ padding: 20rem 0 10rem 0;
   font-size: 3.6rem;
   margin-bottom: 3rem;
   color: var(--rn-blue);
+  background: red;
+  text-align: center;
 }
 .about__info {
   margin-bottom: 4rem;
+  margin-top: 20px;
   .para {
     max-width: 100%;
     p{

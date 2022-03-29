@@ -5,7 +5,7 @@ import SwiperCore, { Navigation } from 'swiper';
 import NewsItems from './NewsItems';
 import TitleSection from './TitleSection';
 import Newsdatas from '../assets/data/Newsdatas';
-import 'swiper/swiper-bundle.min.css';
+import 'swiper/css';
 
 
 SwiperCore.use([Navigation])

@@ -25,8 +25,8 @@ export default function NewsItems({
 
 const NewsItemsStyled = styled.div`
 .projectItem__img {
-    width: 100%;
-    height: 400px;
+    width: 80%;
+    height: 350px;
     border-radius: 12px;
     overflow: hidden;
     display: inline-block;
@@ -37,6 +37,7 @@ const NewsItemsStyled = styled.div`
   }
   .projectItem__info {
     margin-top: 1rem;
+    width: 80%;
     padding: 1rem;
     gap: 3rem;
   }

@@ -78,7 +78,7 @@ export default function GrowSection() {
 
 const GrowSectionStyled = styled.div`
 overflow-x: hidden;
-padding: 10rem 0;
+padding: 0rem 0;
 text-align: center;
 .testimonial__wrapper {
   position: relative;

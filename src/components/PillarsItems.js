@@ -1,23 +1,24 @@
 import React from 'react';
 import styled from 'styled-components';
-import {Link} from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import NewsImg from '../assets/images/news.png';
 
 
 export default function PillarsItems({
-    img = NewsImg,
-    title = 'Project Name',
-  }) {
-    return (
-        <NewsItemsStyled>
-      <Link to="/Detail" className="projectItem__img">
+  img = NewsImg,
+  title = 'Project Name',
+  link = 'refer',
+}) {
+  return (
+    <NewsItemsStyled>
+      <div className="projectItem__img">
         <img src={img} alt="project img" />
-      </Link>
+      </div>
       <div className="projectItem__info">
-          <a className="projectItem__title" href='/Detail'>{title}</a>
+        <a className="projectItem__title" href={link}>{title}</a>
       </div>
     </NewsItemsStyled>
-    )
+  )
 }
 
 const NewsItemsStyled = styled.div`

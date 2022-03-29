@@ -9,25 +9,25 @@ const Reportsdatas = [
         id: uuidv4(),
         img: R1,
         title: 'Report 2016',
-        link:'https://drive.google.com/file/d/1XE3jmjnRBooUcE4g8K_mqzUAZ6cbNFiA/view?usp=sharing',
+        link:'/2016',
     },
     {
         id: uuidv4(),
         img: R2,
         title: 'Report 2017',
-        link:'https://drive.google.com/file/d/1k8ppaSSYuWTJwlwGOpEi2gZ8nsTLxE4G/view?usp=sharing',
+        link:'/2017',
     },
     {
         id: uuidv4(),
         img: R3,
         title: 'Report 2018',
-        link:'https://drive.google.com/file/d/1cqKlJsW5p5RlkqKAn1CDbFceWK9DsGgq/view?usp=sharing',
+        link:'/2018',
     },
     {
         id: uuidv4(),
         img: R4,
         title: 'Report 2019',
-        link:'https://drive.google.com/file/d/1omWnLFwHdvaG3QpXS0DnkqTNXpXMCVOk/view?usp=sharing',
+        link:'/2019',
     },
 ];
 
