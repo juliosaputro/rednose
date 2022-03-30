@@ -73,15 +73,23 @@ export default function Footer() {
                         links={[
                             {
                                 title: 'Facebook',
-                                path: 'http://facebook.com',
+                                path: 'https://www.facebook.com/RedNoseFoundation',
                             },
                             {
                                 title: 'Twitter',
-                                path: 'http://twitter.com',
+                                path: 'https://twitter.com/RNFRedNose',
                             },
                             {
                                 title: 'Instagram',
                                 path: 'https://www.instagram.com/rednosefoundation/',
+                            },
+                            {
+                                title: 'LinkedIn',
+                                path: 'https://id.linkedin.com/company/the-red-nose-foundation',
+                            },
+                            {
+                                title: 'Flickr',
+                                path: 'https://www.flickr.com/people/93275615@N03/',
                             },
                         ]}
                     />
